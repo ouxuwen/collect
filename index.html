@@ -228,7 +228,7 @@
                     });
                     $.ajax({
                         type: 'POST',
-                        url: '/collect/login.php',
+                        url: 'data/login.php',
                         data: params,
                         success: function (res) {
                             layer.close(loadingIndex)
@@ -269,7 +269,7 @@
                     });
                     $.ajax({
                         type: 'POST',
-                        url: '/collect/update.php',
+                        url: 'data/update.php',
                         data: params,
                         success: function (res) {
                             layer.close(loadingIndex)
@@ -309,7 +309,7 @@
                     });
                     $.ajax({
                         type: 'POST',
-                        url: '/collect/getCode.php',
+                        url: 'data/getCode.php',
                         data: {
                             mobile: _this.mobile
                         },
